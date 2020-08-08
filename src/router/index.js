@@ -20,12 +20,12 @@ export default new Router({
       component: NewEmployee
     },
     {
-      path: '/view',
+      path: '/:employee_id',
       name: 'view-employee',
       component: ViewEmployee
     },
     {
-      path: '/edit',
+      path: '/edit/:employee_id',
       name: 'edit-employee',
       component: EditEmployee
     }
